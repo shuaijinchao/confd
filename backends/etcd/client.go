@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/coreos/etcd/client"
+	"github.com/kelseyhightower/confd/log"
 	"golang.org/x/net/context"
-        "github.com/kelseyhightower/confd/log"
 )
 
 // Client is a wrapper around the etcd client
